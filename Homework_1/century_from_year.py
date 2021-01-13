@@ -1,4 +1,6 @@
+
 year = int(input("Enter a year: "))
-for i in range(21):
-    if 1 + 100*i <= year <= 100 + 100*i:
-        print('Century -', i+1)
+century = year // 100 + 1
+if 1 <= year <= 2021:
+    print("Century - ", century)
+
