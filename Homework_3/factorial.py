@@ -5,5 +5,5 @@ def factorial_f(n):
     return f"The factorial of {n} is {factorial_n}!"
 
 
-n = input("Enter the number: ") # not n a
+n = input("Enter the number: ")
 print(factorial_f(n))
